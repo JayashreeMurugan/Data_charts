@@ -1,0 +1,40 @@
+.bar-chart-container {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bar-chart-container .recharts-cartesian-grid-horizontal line,
+  .bar-chart-container .recharts-cartesian-grid-vertical line {
+    stroke: #e0e0e0;
+  }
+  
+  .bar-chart-container .recharts-bar-rectangle {
+    transition: transform 0.3s ease;
+  }
+  
+  .bar-chart-container .recharts-bar-rectangle:hover {
+    transform: scale(1.05);
+  }
+  
+  .bar-chart-container .recharts-tooltip-wrapper {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bar-chart-container .recharts-legend-item-text {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .bar-chart-container .recharts-x-axis .recharts-cartesian-axis-tick-value,
+  .bar-chart-container .recharts-y-axis .recharts-cartesian-axis-tick-value {
+    font-size: 12px;
+    color: #666;
+  }
+  

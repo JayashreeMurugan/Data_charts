@@ -1,0 +1,30 @@
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar ul li:hover,
+  .sidebar ul li.active {
+    background-color: #9babce; /* Example background color for active item */
+  }
+    

@@ -1,0 +1,37 @@
+.pie-chart-container {
+  width: 100%;
+  height: 450px; /* Adjusted height to accommodate the title */
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(168, 67, 67, 0.1);
+  text-align: center; /* Center align the title */
+}
+
+.pie-chart-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pie-chart-container .recharts-tooltip-wrapper {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.pie-chart-container .recharts-text {
+  font-size: 14px;
+  color: #333;
+}
+.pie-chart-container .recharts-text {
+    font-size: 25px;
+    color: rgb(12, 19, 20);
+     /* Replace with your desired color code for "wholesale" */
+     /* bold: 20px; */
+     font-weight: 10px;
+     font: bold 10px;
+  }
+  
